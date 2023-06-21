@@ -26,3 +26,8 @@ git remote add origin https://github.com/konopleva-nina/ProgLanguage_HomeWork.gi
 * удаляем второй сорс git remote remove sourse
 * создаем новую ветку в локальном репозитории git checkout -b new-branch
 * создаем новую ветку в удаленном репозитории
+* делаем изменения в файлах в новой ветке
+* git push -u origin new-branch отправляем изменения в удаленный репозиторий, получаем локальный конфликт
+* решаем конфликт делаем git pull new-branch, либо git fetch --all
+* добавляем изменения git merge origin/new-branch
+* добавляем изменени в удаленный репозиторий git push -u origin new-branch
